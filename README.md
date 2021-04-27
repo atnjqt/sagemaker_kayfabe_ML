@@ -18,7 +18,7 @@ You need access to AWS SageMaker, either via your own account or via Pennkey ASC
 
 This example for ML model training is based on WWE SuperStar Ronda Rousey's public instagram page https://www.instagram.com/rondarousey/. 
 
-
+<img alt='Ronda Rousey Mural Art' src='https://github.com/atnjqt/random_stuff/blob/master/ronda3.png?raw=true' border="100px" style="float: left;height: 400px">
 
 ### Pre-processing Steps (*manually done*):
 
@@ -43,8 +43,6 @@ This example for ML model training is based on WWE SuperStar Ronda Rousey's publ
 Machine learning is an iterative step w/ hyperparameter fine tuning! Please note that this example does not really go into changing values, just follows the defaults for XGBoost...
 
 - This will output a trained CSV [data/train04222021.csv](./data/train04222021.csv) file, you can ignore this for the most part... this gets used to generate the **Confusion Matrix** for the training & testing data. For example, on the most recent run I got a greater than 83% true positive result on my `kayfabe-detector` for a 70/30 row split *(1029, 415) (441, 415)* w/ 415 columns of Rekognition data 1/0 for >95% confidence
-  
-<img alt='Ronda Rousey Mural Art' src='https://github.com/atnjqt/random_stuff/blob/master/ronda3.png?raw=true' border="100px" style="float: left;height: 450px">
 
 ```
 Overall Classification Rate: 83.9%
@@ -56,6 +54,9 @@ Observed
 No Kayfabe     85% (175)    17% (41)
 Kayfabe         15% (30)     83% (195) 
 ```
+
+  
+<img alt='Ronda Rousey Mural Art' src='https://github.com/atnjqt/random_stuff/blob/master/ronda4.png?raw=true' border="100px" style="float: left;height: 300px">
 _____________
 
 ### Concluding thoughts ...
