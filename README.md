@@ -1,8 +1,10 @@
 # AWS SageMaker example for ML Kayfabe Detector for Instagram photos
 
-Etienne P Jacquot - 04/27/2021
+Etienne P Jacquot - 08/19/2021
 
 This project was started in 2019 when Annenberg School for Communication faculty member Dr Lingel brought to our attention that there is interest in *using machine learning tools on social media content*.
+
+> *UPDATE: On 08/18/2021 Marlon identified that our AWS security & compliance score was not great. One remediation is to block public access for internet to SageMaker notebook instances. More information here: [https://github.com/aquasecurity/cloud-security-remediation-guides/blob/master/en/aws/sagemaker/notebook-direct-internet-access.md](https://github.com/aquasecurity/cloud-security-remediation-guides/blob/master/en/aws/sagemaker/notebook-direct-internet-access.md). Thus I am commiting all changes to my github repo to remove all content & delete this non-compliant sagemaker notebook instance.
 
 
 ## Getting Started w/ Kayfabe ML Training
