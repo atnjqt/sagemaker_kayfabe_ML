@@ -75,3 +75,7 @@ While I was unable to scale up for millions of WWE Instagram public userfeed ima
 This project & notebook was used as a demonstration for ASC researchers for ongoing project --> https://github.com/jmparelman/SageMaker_DNMF
 
 ![Roman Reigns Example Training](./img/roman1.png)))
+
+___________
+
+UPDATE FROM NXCOMMJHUB - ATNJQT
